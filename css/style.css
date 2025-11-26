@@ -93,7 +93,7 @@ body {
 
 .navegacion a {
   text-decoration: none;
-  color: #1b3c89;
+  color: var(--texto);
   font-weight: 500;
   padding: 8px 0;
   position: relative;
@@ -101,7 +101,7 @@ body {
 }
 
 .navegacion a:hover {
-  color: #d4af37;
+  color: var(--dorado);
 }
 
 .navegacion a::after {
@@ -128,7 +128,7 @@ body {
 .menu-hamburguesa span {
   width: 25px;
   height: 3px;
-  background: #d4af37;
+  background: var(--dorado);
   margin: 3px 0;
   transition: 0.3s;
   border-radius: 2px;
