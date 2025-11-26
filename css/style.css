@@ -8,9 +8,6 @@
   --azul-claro: #4b77cf;
   --dorado: #d4af37;
 
-  /* REEMPLAZOS DE LOS COLORES QUE TENÍAS */
-  --rosa: var(--dorado);
-  --lila: var(--azul-claro);
 
   /* FONDOS TRANSPARENTES */
   --blanco-transparente: rgba(255,255,255,0.2);
@@ -84,14 +81,14 @@ body {
 }
 
 .logo a:hover {
-  color: #4b77cf;
+  color: var(--Azul-oscuro);
 }
 
 .navegacion {
   display: flex;
   list-style: none;
   gap: 30px;
-  color: #f7f9ff;
+  color: var(--Azul-oscuro);
 }
 
 .navegacion a {
